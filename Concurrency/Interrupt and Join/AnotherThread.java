@@ -1,5 +1,5 @@
 
-import static com.timbuchalka.ThreadColor.ANSI_BLUE;
+import static ThreadColor.ANSI_BLUE;
 
 public class AnotherThread extends Thread {
 
