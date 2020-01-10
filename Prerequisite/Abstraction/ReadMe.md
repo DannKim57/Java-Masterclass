@@ -20,3 +20,8 @@ There are 1 interface and 6 classes: Ipest interface, Main class, DiningRoom cla
 - HouseFly class extends Insect class. 
 - Both Telemarketer class and HouseFly class implement Ipest interface.
 - The purpose of this program is to figure out how an interface put together those classes which have nothing in common and, eventually, what the main role of an interface is. (Note that the same goes for 'List<String> list = new ArrayList<String>();')
+ 
+ 
+& Off-Topic
+- How can I use a Telemarketer class's method, using ip2, which is an instance of Ipest interface? 
+  - There are two options: 1. cast ip2 as Telemarketer. e.g.) ((Telemarketer) ip2).getName(); 2. make a method in Ipest interface. 
