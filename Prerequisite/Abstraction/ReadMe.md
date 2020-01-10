@@ -11,3 +11,11 @@ https://stackoverflow.com/questions/383947/what-does-it-mean-to-program-to-an-in
 https://javarevisited.blogspot.com/2012/04/10-points-on-interface-in-java-with.html
 https://javarevisited.blogspot.com/2010/10/abstraction-in-java.html
 https://www.wikiwand.com/en/Abstraction_(computer_science)
+
+
+
+* There are 1 interface and 6 classes: Ipest interface, Main class, DiningRoom class, Person class, Telemarketer class, Insect class, and HouseFly class. 
+- Telemarketer class extends Person class. 
+- HouseFly class extends Insect class. 
+- Both Telemarketer class and HouseFly class implement Ipest interface.
+= The purpose of this program is to figure out how an interface put together those classes which have nothing in common and, eventually, what the main role of an interface is. (Note that the same goes for 'List<String> list = new ArrayList<String>();')
