@@ -1,6 +1,7 @@
 class Message{ message, empty + read() + write()}
 - synchronized read() in class Message { while(empty) + try, wait(), catch + notifyAll() + return message }
 - synchronized write() in class Message { while(!empty) + try, wait(), catch + this.message = message + notifyAll() }
+- notifyAll() before return in read() and notifyAll() after this.message = message in write().
 
 & Why not use an if statement instead of a loop?
 - Because you need to keep checking on the condition. 
